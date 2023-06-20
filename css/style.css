@@ -152,6 +152,7 @@ body {
   color: white;
   cursor: pointer;
   transition: all 0.3s;
+  overflow: hidden;
 }
 .container .game .square:hover {
   background: #730d1e;
