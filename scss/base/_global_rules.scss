@@ -1,0 +1,17 @@
+/* S Global Rules */
+* {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  &::selection {
+    background: transparent;
+  }
+}
+body {
+  font-weight: bold;
+  background: #fee8e8;
+}
+
+/* E Global Rules */
